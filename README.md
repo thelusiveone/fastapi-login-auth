@@ -9,27 +9,14 @@ This project demonstrates user login/authentication using FastAPI and JWT tokens
 - Protected route
 
 
-# Project Name
-
-Short description of what this project does.
-
-## Table of Contents
-
-- [Overview](#overview)  
-- [Directory Structure](#directory-structure)  
-- [Getting Started](#getting-started)  
-  - [Prerequisites](#prerequisites)  
-  - [Installation](#installation)  
-- [Usage](#usage)  
-- [Authentication Module](#authentication-module)  
-- [Configuration](#configuration)  
-- [Project Structure](#project-structure)  
-- [Contributing](#contributing)  
-- [License](#license)
-
-## Overview
-
-Describe the purpose of the application, its core responsibilities, and any high-level architecture notes.
-
-## Directory Structure
+app/
+├── auth/
+│   ├── __init__.py
+│   ├── models.py      # User model
+│   ├── routes.py      # Auth endpoints
+│   ├── services.py    # Auth logic
+│   └── validators.py  # Pydantic models
+├── config/
+│   └── settings.py    # Configuration
+└── main.py
 
